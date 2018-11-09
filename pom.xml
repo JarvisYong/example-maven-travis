@@ -33,8 +33,8 @@
 	<!-- CVEGrp2-2 https://mvnrepository.com/artifact/com.liferay.portal/portal-service -->
 	<dependency>
     <groupId>com.liferay.portal</groupId>
-    <artifactId>portal-service</artifactId>
-    <version>6.1.2</version>
+    <artifactId>portal-impl</artifactId>
+    <version>6.2.5</version>
     <scope>provided</scope>
 	</dependency>
 
