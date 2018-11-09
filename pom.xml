@@ -146,12 +146,13 @@
     <version>3.1.2</version>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-plugins -->
+	<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket-extensions -->
 <dependency>
-    <groupId>com.googlecode.wicket-jquery-ui</groupId>
-    <artifactId>wicket-jquery-ui-plugins</artifactId>
-    <version>8.0.0-M8</version>
+    <groupId>org.apache.wicket</groupId>
+    <artifactId>wicket-extensions</artifactId>
+    <version>7.10.0</version>
 </dependency>
+
 
 
 
