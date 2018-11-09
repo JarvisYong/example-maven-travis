@@ -121,7 +121,7 @@
 	<!-- CVEGrp2-30 https://mvnrepository.com/artifact/org.glassfish.packager/glassfish-grizzly -->
 	<dependency>
     <groupId>org.glassfish.packager</groupId>
-    <artifactId>glassfish-grizzly</artifactId>
+    <artifactId>glassfish-management</artifactId>
     <version>3.0.1</version>
 	</dependency>
 
