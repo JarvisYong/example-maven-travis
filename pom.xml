@@ -132,10 +132,10 @@
     <version>1.2.1</version>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/com.exadel.flamingo.flex/amf-serializer -->
+	<!-- https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-service-spring -->
 	<dependency>
-    <groupId>com.exadel.flamingo.flex</groupId>
-    <artifactId>amf-serializer</artifactId>
+    <groupId>com.exadel.flamingo</groupId>
+    <artifactId>flamingo-service-spring</artifactId>
     <version>2.2.0</version>
 	</dependency>
 
