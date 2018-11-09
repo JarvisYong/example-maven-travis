@@ -30,7 +30,7 @@
     <version>5.5.15</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-4 https://mvnrepository.com/artifact/com.liferay.portal/portal-service (Unable to find to correct repo)-->
+	<!-- CVEGrp2-4 https://mvnrepository.com/artifact/com.liferay.portal/portal-service (Unable to find to correct dependency)-->
 	<!--<dependency>
     <groupId>com.liferay.portal</groupId>
     <artifactId>portal-kernel</artifactId>
@@ -52,20 +52,29 @@
     <version>7.0.30</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer (Unable to find correct repo)-->
+	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer (Unable to find correct dependency)-->
 	<!--<dependency>
     <groupId>org.apache.geronimo.framework</groupId>
     <artifactId>jmx-security</artifactId>
     <version>3.0-m1</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api -->
-	<dependency>
+	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api (Unable to find correct dependency)-->
+	<!--<dependency>
     <groupId>org.jasig.portal</groupId>
     <artifactId>uportal-parent</artifactId>
     <version>4.0.11.1</version>
     <type>pom</type>
+	</dependency>-->
+	
+	<!-- CVEGrp2-16 https://mvnrepository.com/artifact/org.picketlink/picketlink-federation -->
+	<dependency>
+    <groupId>org.picketlink</groupId>
+    <artifactId>picketlink-federation</artifactId>
+    <version>2.6.1.Final</version>
 	</dependency>
+
+	
 
 
   </dependencies>
