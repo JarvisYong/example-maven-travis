@@ -125,12 +125,20 @@
     <version>3.0.1</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core -->
-	<dependency>
+	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (done)-->
+	<!--<dependency>
     <groupId>org.apache.geode</groupId>
     <artifactId>geode-core</artifactId>
     <version>1.2.1</version>
+	</dependency>-->
+	
+	<!-- https://mvnrepository.com/artifact/com.exadel.flamingo.flex/amf-serializer -->
+	<dependency>
+    <groupId>com.exadel.flamingo.flex</groupId>
+    <artifactId>amf-serializer</artifactId>
+    <version>2.2.0</version>
 	</dependency>
+
 
   </dependencies>
 </project>
