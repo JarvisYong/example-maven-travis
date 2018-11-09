@@ -111,13 +111,19 @@
     <type>pom</type>
 	</dependency>-->
 	
-	<!-- CVEGrp2-28 https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
-	<dependency>
+	<!-- CVEGrp2-28 https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 (done)-->
+	<!--<dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-collections4</artifactId>
     <version>4.0</version>
-	</dependency>
+	</dependency>-->
 
+	<!-- CVEGrp2-30 https://mvnrepository.com/artifact/org.glassfish.packager/glassfish-grizzly -->
+	<dependency>
+    <groupId>org.glassfish.packager</groupId>
+    <artifactId>glassfish-grizzly</artifactId>
+    <version>3.0.1</version>
+	</dependency>
 
 
   </dependencies>
