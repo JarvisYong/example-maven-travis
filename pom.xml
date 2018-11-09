@@ -63,7 +63,7 @@
 	<dependency>
     <groupId>org.jasig.portal</groupId>
     <artifactId>uportal-search-api</artifactId>
-    <version>4.0.13</version>
+    <version>4.0.12</version>
 	</dependency>
 
 
