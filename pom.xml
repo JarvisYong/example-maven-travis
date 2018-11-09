@@ -146,13 +146,21 @@
     <version>3.1.2</version>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui -->
-<dependency>
+	<!-- CVEGrp2-35 https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui (Scantist unable to find CVE)-->
+	<!--<dependency>
     <groupId>com.googlecode.wicket-jquery-ui</groupId>
     <artifactId>wicket-jquery-ui</artifactId>
     <version>7.10.0</version>
     <scope>provided</scope>
-</dependency>
+	</dependency>-->
+	
+	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-core -->
+	<dependency>
+    <groupId>io.undertow</groupId>
+    <artifactId>undertow-core</artifactId>
+    <version>2.0.0.Final</version>
+	</dependency>
+	
 
   </dependencies>
 </project>
