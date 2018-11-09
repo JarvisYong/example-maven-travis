@@ -46,10 +46,18 @@
 	</dependency>-->
 
 	<!--CVEGrp2-4 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
-	<dependency>
+	<!--<dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
     <version>7.0.30</version>
+	</dependency>-->
+	
+	<!-- CVEGrp2-5 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer -->
+	<dependency>
+    <groupId>org.apache.geronimo.framework</groupId>
+    <artifactId>geronimo-gbean-deployer</artifactId>
+    <version>3.0.0</version>
+    <scope>provided</scope>
 	</dependency>
 
   </dependencies>
