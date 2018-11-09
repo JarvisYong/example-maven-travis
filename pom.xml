@@ -118,12 +118,21 @@
     <version>4.0</version>
 	</dependency>-->
 
-	<!-- CVEGrp2-30 https://mvnrepository.com/artifact/org.glassfish.packager/glassfish-grizzly -->
-	<dependency>
+	<!-- CVEGrp2-30 https://mvnrepository.com/artifact/org.glassfish.packager/glassfish-grizzly (Unable to find correct dependency)-->
+	<!--<dependency>
     <groupId>org.glassfish.packager</groupId>
     <artifactId>glassfish-common-full</artifactId>
     <version>3.0.1</version>
+	</dependency>-->
+	
+	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-junit -->
+	<dependency>
+    <groupId>org.apache.geode</groupId>
+    <artifactId>geode-junit</artifactId>
+    <version>1.2.1</version>
+    <scope>test</scope>
 	</dependency>
+
 
 
   </dependencies>
