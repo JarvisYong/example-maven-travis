@@ -154,13 +154,20 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-core -->
-	<dependency>
+	<!-- CVEGrp2-36 https://mvnrepository.com/artifact/io.undertow/undertow-core (done)-->
+	<!--<dependency>
     <groupId>io.undertow</groupId>
     <artifactId>undertow-core</artifactId>
     <version>2.0.0.Final</version>
-	</dependency>
+	</dependency>-->
 	
+	<!-- https://mvnrepository.com/artifact/org.ovirt.engine.api/model -->
+<dependency>
+    <groupId>org.ovirt.engine.api</groupId>
+    <artifactId>model</artifactId>
+    <version>4.1.6</version>
+</dependency>
+
 
   </dependencies>
 </project>
