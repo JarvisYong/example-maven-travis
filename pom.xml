@@ -125,15 +125,12 @@
     <version>3.0.1</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-junit -->
+	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core -->
 	<dependency>
     <groupId>org.apache.geode</groupId>
-    <artifactId>geode-junit</artifactId>
+    <artifactId>geode-core</artifactId>
     <version>1.2.1</version>
-    <scope>test</scope>
 	</dependency>
-
-
 
   </dependencies>
 </project>
