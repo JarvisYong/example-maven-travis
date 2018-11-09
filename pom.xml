@@ -169,13 +169,12 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/org.apache.geode/geode-common -->
-<dependency>
+	<!-- CVEGrp2-40 https://mvnrepository.com/artifact/org.apache.geode/geode-core -->
+	<dependency>
     <groupId>org.apache.geode</groupId>
-    <artifactId>geode-common</artifactId>
+    <artifactId>geode-core</artifactId>
     <version>1.0.0-incubating</version>
-</dependency>
-
+	</dependency>
 
   </dependencies>
 </project>
