@@ -34,7 +34,7 @@
 	<dependency>
     <groupId>com.liferay.portal</groupId>
     <artifactId>portal-service</artifactId>
-    <version>6.2.5</version>
+    <version>6.1.20</version>
     <scope>provided</scope>
 	</dependency>
 
