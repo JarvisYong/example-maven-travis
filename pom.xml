@@ -23,10 +23,20 @@
   </properties>
 	
   <dependencies>
+	<!-- CVEGrp2-1 https://mvnrepository.com/artifact/tomcat/catalina -->
+	<!--<dependency>
+    <groupId>tomcat</groupId>
+    <artifactId>catalina</artifactId>
+    <version>5.5.15</version>
+	</dependency>-->
+	
+	<!-- CVEGrp2-2 https://mvnrepository.com/artifact/com.liferay.portal/portal-service -->
 	<dependency>
-		<groupId>tomcat</groupId>
-		<artifactId>catalina</artifactId>
-		<version>5.5.15</version>
+    <groupId>com.liferay.portal</groupId>
+    <artifactId>portal-service</artifactId>
+    <version>6.2.5</version>
+    <scope>provided</scope>
 	</dependency>
+
   </dependencies>
 </project>
