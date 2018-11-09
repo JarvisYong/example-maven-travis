@@ -24,11 +24,11 @@
 	
   <dependencies>
 	<!-- CVEGrp2-1 https://mvnrepository.com/artifact/tomcat/catalina -->
-	<dependency>
+	<!--<dependency>
     <groupId>tomcat</groupId>
     <artifactId>catalina</artifactId>
     <version>5.5.15</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-2 https://mvnrepository.com/artifact/com.liferay.portal/portal-service -->
 	<!--<dependency>
@@ -45,6 +45,12 @@
     <version>5.5.1</version>
 	</dependency>-->
 
+	<!--CVEGrp2-4 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+	<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-catalina</artifactId>
+    <version>7.0.30</version>
+	</dependency>
 
   </dependencies>
 </project>
