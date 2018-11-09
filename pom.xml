@@ -169,7 +169,7 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- CVEGrp2-40 https://mvnrepository.com/artifact/org.apache.geode/geode-core -->
+	<!-- CVEGrp2-40 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist unable to find CVE)-->
 	<dependency>
     <groupId>org.apache.geode</groupId>
     <artifactId>geode-core</artifactId>
