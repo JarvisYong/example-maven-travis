@@ -62,8 +62,8 @@
 	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api -->
 	<dependency>
     <groupId>org.jasig.portal</groupId>
-    <artifactId>uportal-search-api</artifactId>
-    <version>4.0.12</version>
+    <artifactId>uportal-impl</artifactId>
+    <version>3.2.5</version>
 	</dependency>
 
 
