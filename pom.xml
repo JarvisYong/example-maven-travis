@@ -96,13 +96,20 @@
     <version>1.1.1-incubating</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-25 https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
-	<dependency>
+	<!-- CVEGrp2-25,26,29,33 https://mvnrepository.com/artifact/org.apache.struts/struts2-core (done)-->
+	<!--<dependency>
     <groupId>org.apache.struts</groupId>
     <artifactId>struts2-core</artifactId>
     <version>2.3.1</version>
-	</dependency>
+	</dependency>-->
 
+	<!-- CVEGrp2-27 https://mvnrepository.com/artifact/org.apache.wicket/wicket -->
+	<dependency>
+    <groupId>org.apache.wicket</groupId>
+    <artifactId>wicket</artifactId>
+    <version>7.0.0-M2</version>
+    <type>pom</type>
+	</dependency>
 
 
   </dependencies>
