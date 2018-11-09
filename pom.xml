@@ -74,11 +74,18 @@
     <version>2.6.1.Final</version>
 	</dependency>-->
 
-	<!-- CVEGrp2-20 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
-	<dependency>
+	<!-- CVEGrp2-20,21,41 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (done)-->
+	<!--<dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
     <version>9.0.0.M9</version>
+	</dependency>-->
+	
+	<!-- CVEGrp2-23 https://mvnrepository.com/artifact/org.apache.derby/org.apache.derby.core -->
+	<dependency>
+    <groupId>org.apache.derby</groupId>
+    <artifactId>org.apache.derby.core</artifactId>
+    <version>10.1.2-20070705</version>
 	</dependency>
 
 
