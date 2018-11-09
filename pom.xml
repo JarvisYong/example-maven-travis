@@ -55,7 +55,7 @@
 	<!-- CVEGrp2-5 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer -->
 	<dependency>
     <groupId>org.apache.geronimo.framework</groupId>
-    <artifactId>geronimo-service-builder</artifactId>
+    <artifactId>jmx-security</artifactId>
     <version>3.0.0</version>
 	</dependency>
 
