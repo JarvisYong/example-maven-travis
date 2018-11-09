@@ -54,9 +54,9 @@
 	
 	<!-- CVEGrp2-5 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer -->
 	<dependency>
-    <groupId>org.apache.geronimo.plugins</groupId>
-    <artifactId>console-filter</artifactId>
-    <version>3.0.0</version>
+    <groupId>org.apache.geronimo.framework</groupId>
+    <artifactId>geronimo-management</artifactId>
+    <version>3.0-M1</version>
 	</dependency>
 
   </dependencies>
