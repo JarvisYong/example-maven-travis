@@ -132,15 +132,19 @@
     <version>1.2.1</version>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-service-spring -->
-	<dependency>
+	<!-- CVEGrp2-32 https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-service-spring (Travis unable to build)-->
+	<!--<dependency>
     <groupId>com.exadel.flamingo</groupId>
     <artifactId>flamingo-service-spring</artifactId>
     <version>2.2.0</version>
+	</dependency>-->
+	
+	<!-- https://mvnrepository.com/artifact/org.owasp/dependency-check-core -->
+	<dependency>
+    <groupId>org.owasp</groupId>
+    <artifactId>dependency-check-core</artifactId>
+    <version>3.1.2</version>
 	</dependency>
-
-
-
 
   </dependencies>
 </project>
