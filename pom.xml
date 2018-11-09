@@ -84,8 +84,8 @@
 	<!-- CVEGrp2-23 https://mvnrepository.com/artifact/org.apache.derby/org.apache.derby.core -->
 	<dependency>
     <groupId>org.apache.derby</groupId>
-    <artifactId>org.apache.derby.core</artifactId>
-    <version>10.1.2-20061201</version>
+    <artifactId>com.springsource.org.apache.derby</artifactId>
+    <version>10.1.3000001.417277</version>
 	</dependency>
 
   </dependencies>
