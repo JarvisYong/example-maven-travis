@@ -55,9 +55,9 @@
 	<!-- CVEGrp2-5 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer -->
 	<dependency>
     <groupId>org.apache.geronimo.framework</groupId>
-    <artifactId>geronimo-gbean-deployer</artifactId>
-    <version>3.0-M1</version>
-    <scope>provided</scope>
+    <artifactId>geronimo-kernel</artifactId>
+    <version>3.0.0</version>
+	</dependency>
 
   </dependencies>
 </project>
