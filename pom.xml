@@ -147,11 +147,12 @@
 	</dependency>-->
 	
 	<!-- https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-core -->
-	<dependency>
+<dependency>
     <groupId>com.googlecode.wicket-jquery-ui</groupId>
     <artifactId>wicket-jquery-ui-core</artifactId>
-    <version>8.0.0-M9.1</version>
-	</dependency>
+    <version>8.0.0-M8</version>
+</dependency>
+
 
 
   </dependencies>
