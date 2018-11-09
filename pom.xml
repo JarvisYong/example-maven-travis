@@ -23,14 +23,14 @@
   </properties>
 	
   <dependencies>
-	<!-- CVEGrp2-1 https://mvnrepository.com/artifact/tomcat/catalina -->
+	<!-- CVEGrp2-3 https://mvnrepository.com/artifact/tomcat/catalina (Done)-->
 	<!--<dependency>
     <groupId>tomcat</groupId>
     <artifactId>catalina</artifactId>
     <version>5.5.15</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-2 https://mvnrepository.com/artifact/com.liferay.portal/portal-service -->
+	<!-- CVEGrp2-4 https://mvnrepository.com/artifact/com.liferay.portal/portal-service (Unable to find to correct repo)-->
 	<!--<dependency>
     <groupId>com.liferay.portal</groupId>
     <artifactId>portal-kernel</artifactId>
@@ -38,26 +38,34 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- CVEGrp2-3,18 https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
+	<!-- CVEGrp2-5,18 https://mvnrepository.com/artifact/org.apache.activemq/activemq-core (Done)-->
 	<!--<dependency>
     <groupId>org.apache.activemq</groupId>
     <artifactId>activemq-core</artifactId>
     <version>5.5.1</version>
 	</dependency>-->
 
-	<!--CVEGrp2-4 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+	<!--CVEGrp2-6 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Done)-->
 	<!--<dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
     <version>7.0.30</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-5 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer -->
-	<dependency>
+	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer (Unable to find correct repo)-->
+	<!--<dependency>
     <groupId>org.apache.geronimo.framework</groupId>
     <artifactId>jmx-security</artifactId>
     <version>3.0-m1</version>
+	</dependency>-->
+	
+	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api -->
+	<dependency>
+    <groupId>org.jasig.portal</groupId>
+    <artifactId>uportal-search-api</artifactId>
+    <version>4.0.13</version>
 	</dependency>
+
 
   </dependencies>
 </project>
