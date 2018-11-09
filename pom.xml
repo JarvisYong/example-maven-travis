@@ -161,12 +161,13 @@
     <version>2.0.0.Final</version>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/org.ovirt.engine.api/model -->
+<!-- https://mvnrepository.com/artifact/org.ovirt.engine.api/sdk -->
 <dependency>
     <groupId>org.ovirt.engine.api</groupId>
-    <artifactId>model</artifactId>
+    <artifactId>sdk</artifactId>
     <version>4.1.6</version>
 </dependency>
+
 
 
   </dependencies>
