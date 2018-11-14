@@ -56,12 +56,12 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- CVEGrp2-5,18 https://mvnrepository.com/artifact/org.apache.activemq/activemq-core (Scantist - Found, OSSI - Not found)-->
-	<dependency>
+	<!-- CVEGrp2-5,18 https://mvnrepository.com/artifact/org.apache.activemq/activemq-core (Scantist - Found, OSSI - Found)-->
+	<!--<dependency>
     <groupId>org.apache.activemq</groupId>
     <artifactId>activemq-core</artifactId>
     <version>5.5.1</version>
-	</dependency>
+	</dependency>-->
 
 	<!--CVEGrp2-6 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Found)-->
 	<!--<dependency>
