@@ -133,11 +133,11 @@
 	</dependency>
 	
 	<!-- CVEGrp2-32 https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-service-spring (Travis unable to build)-->
-	<dependency>
+	<!--<dependency>
     <groupId>com.exadel.flamingo</groupId>
     <artifactId>flamingo-service-spring</artifactId>
     <version>2.2.0</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-34 https://mvnrepository.com/artifact/org.owasp/dependency-check-core (Scantist - Found)-->
 	<dependency>
@@ -162,12 +162,12 @@
 	</dependency>
 	
 	<!-- CVEGrp2-38 https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core (Travis unable to build)-->
-	<dependency>
+	<!--<dependency>
     <groupId>org.jenkins-ci.main</groupId>
     <artifactId>jenkins-core</artifactId>
     <version>2.32.1</version>
     <scope>provided</scope>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-40 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist unable to find CVE)-->
 	<dependency>
