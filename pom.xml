@@ -70,7 +70,7 @@
     <version>7.0.30</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer (Unable to find correct dependency)-->
+	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer (Unable to build)-->
 	<!--<dependency>
     <groupId>org.apache.geronimo.framework</groupId>
     <artifactId>jmx-security</artifactId>
