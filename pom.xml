@@ -119,11 +119,11 @@
 	</dependency>
 
 	<!-- CVEGrp2-30 https://mvnrepository.com/artifact/org.glassfish.packager/glassfish-grizzly (Unable to find correct dependency)-->
-	<dependency>
+	<!--<dependency>
     <groupId>org.glassfish.packager</groupId>
     <artifactId>glassfish-common-full</artifactId>
     <version>3.0.1</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist - Found)-->
 	<dependency>
