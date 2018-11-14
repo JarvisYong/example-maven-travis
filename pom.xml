@@ -92,12 +92,12 @@
     <version>2.6.1.Final</version>
 	</dependency>-->
 
-	<!-- CVEGrp2-20,21,41 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Found)-->
-	<dependency>
+	<!-- CVEGrp2-20,21,41 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Found, OSSI Found)-->
+	<!--<dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
     <version>9.0.0.M9</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-23 https://mvnrepository.com/artifact/org.apache.derby/derby (Scantist - Found)-->
 	<!--<dependency>
