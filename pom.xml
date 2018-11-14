@@ -63,7 +63,7 @@
     <version>5.5.1</version>
 	</dependency>-->
 
-	<!--CVEGrp2-6 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Found)-->
+	<!--CVEGrp2-6 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Found, OSSI Found)-->
 	<!--<dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
@@ -77,7 +77,7 @@
     <version>3.0-m1</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api (Unable to find correct dependency)-->
+	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api (Scantist - Not Found, OSSI Not Found)-->
 	<!--<dependency>
     <groupId>org.jasig.portal</groupId>
     <artifactId>uportal-parent</artifactId>
@@ -107,19 +107,19 @@
     <scope>test</scope>
 	</dependency>-->
 	
-	<!-- CVEGrp2-24 https://mvnrepository.com/artifact/org.apache.wink/wink-client (Scantist - Found)-->
-	<dependency>
+	<!-- CVEGrp2-24 https://mvnrepository.com/artifact/org.apache.wink/wink-client (Scantist - Found, OSSI Not Found)-->
+	<!--<dependency>
     <groupId>org.apache.wink</groupId>
     <artifactId>wink-client</artifactId>
     <version>1.1.1-incubating</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-25,26,29,33 https://mvnrepository.com/artifact/org.apache.struts/struts2-core (Scantist - Found)-->
-	<!--<dependency>
+	<dependency>
     <groupId>org.apache.struts</groupId>
     <artifactId>struts2-core</artifactId>
     <version>2.3.1</version>
-	</dependency>-->
+	</dependency>
 
 	<!-- CVEGrp2-27 https://mvnrepository.com/artifact/org.apache.wicket/wicket (Scantist - Found)-->
 	<!--<dependency>
