@@ -99,7 +99,7 @@
     <version>9.0.0.M9</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-23 https://mvnrepository.com/artifact/org.apache.derby/derby (Scantist - Found)-->
+	<!-- CVEGrp2-23 https://mvnrepository.com/artifact/org.apache.derby/derby (Scantist - Found, OSSI Found)-->
 	<!--<dependency>
     <groupId>org.apache.derby</groupId>
     <artifactId>derby</artifactId>
