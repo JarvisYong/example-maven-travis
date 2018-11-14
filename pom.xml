@@ -114,20 +114,20 @@
     <version>1.1.1-incubating</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-25,26,29,33 https://mvnrepository.com/artifact/org.apache.struts/struts2-core (Scantist - Found)-->
-	<dependency>
+	<!-- CVEGrp2-25,26,29,33 https://mvnrepository.com/artifact/org.apache.struts/struts2-core (Scantist - Found, OSSI 33 Not Found (Rest Found))-->
+	<!--<dependency>
     <groupId>org.apache.struts</groupId>
     <artifactId>struts2-core</artifactId>
     <version>2.3.1</version>
-	</dependency>
+	</dependency>-->
 
 	<!-- CVEGrp2-27 https://mvnrepository.com/artifact/org.apache.wicket/wicket (Scantist - Found)-->
-	<!--<dependency>
+	<dependency>
     <groupId>org.apache.wicket</groupId>
     <artifactId>wicket</artifactId>
     <version>7.0.0-M2</version>
     <type>pom</type>
-	</dependency>-->
+	</dependency>
 	
 	<!-- CVEGrp2-28 https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 (Scantist - Found)-->
 	<!--<dependency>
