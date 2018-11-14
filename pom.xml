@@ -64,18 +64,18 @@
 	</dependency>-->
 
 	<!--CVEGrp2-6 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Found)-->
-	<dependency>
+	<!--<dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
     <version>7.0.30</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer (Unable to find correct dependency)-->
-	<!--<dependency>
+	<dependency>
     <groupId>org.apache.geronimo.framework</groupId>
     <artifactId>jmx-security</artifactId>
     <version>3.0-m1</version>
-	</dependency>-->
+	</dependency>
 	
 	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api (Unable to find correct dependency)-->
 	<!--<dependency>
