@@ -23,12 +23,12 @@
   </properties>
 	
   <dependencies>
-	<!-- CVEGrp2-3 https://mvnrepository.com/artifact/tomcat/catalina (Done)-->
-	<dependency>
+	<!-- CVEGrp2-3 https://mvnrepository.com/artifact/tomcat/catalina (Scantist/OSSI - Done)-->
+	<!--<dependency>
     <groupId>tomcat</groupId>
     <artifactId>catalina</artifactId>
     <version>5.5.15</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-4 https://mvnrepository.com/artifact/com.liferay.portal/portal-service (Unable to find to correct dependency)-->
 	<!--<dependency>
@@ -38,14 +38,14 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- CVEGrp2-5,18 https://mvnrepository.com/artifact/org.apache.activemq/activemq-core (Done)-->
+	<!-- CVEGrp2-5,18 https://mvnrepository.com/artifact/org.apache.activemq/activemq-core (Scantist - Done)-->
 	<!--<dependency>
     <groupId>org.apache.activemq</groupId>
     <artifactId>activemq-core</artifactId>
     <version>5.5.1</version>
 	</dependency>-->
 
-	<!--CVEGrp2-6 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Done)-->
+	<!--CVEGrp2-6 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Done)-->
 	<!--<dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
@@ -67,21 +67,21 @@
     <type>pom</type>
 	</dependency>-->
 	
-	<!-- CVEGrp2-16 https://mvnrepository.com/artifact/org.picketlink/picketlink-federation (done)-->
+	<!-- CVEGrp2-16 https://mvnrepository.com/artifact/org.picketlink/picketlink-federation (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.picketlink</groupId>
     <artifactId>picketlink-federation</artifactId>
     <version>2.6.1.Final</version>
 	</dependency>-->
 
-	<!-- CVEGrp2-20,21,41 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (done)-->
+	<!-- CVEGrp2-20,21,41 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
     <version>9.0.0.M9</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-23 https://mvnrepository.com/artifact/org.apache.derby/derby (done)-->
+	<!-- CVEGrp2-23 https://mvnrepository.com/artifact/org.apache.derby/derby (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.apache.derby</groupId>
     <artifactId>derby</artifactId>
@@ -89,21 +89,21 @@
     <scope>test</scope>
 	</dependency>-->
 	
-	<!-- CVEGrp2-24 https://mvnrepository.com/artifact/org.apache.wink/wink-client (done)-->
+	<!-- CVEGrp2-24 https://mvnrepository.com/artifact/org.apache.wink/wink-client (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.apache.wink</groupId>
     <artifactId>wink-client</artifactId>
     <version>1.1.1-incubating</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-25,26,29,33 https://mvnrepository.com/artifact/org.apache.struts/struts2-core (done)-->
+	<!-- CVEGrp2-25,26,29,33 https://mvnrepository.com/artifact/org.apache.struts/struts2-core (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.apache.struts</groupId>
     <artifactId>struts2-core</artifactId>
     <version>2.3.1</version>
 	</dependency>-->
 
-	<!-- CVEGrp2-27 https://mvnrepository.com/artifact/org.apache.wicket/wicket (done)-->
+	<!-- CVEGrp2-27 https://mvnrepository.com/artifact/org.apache.wicket/wicket (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.apache.wicket</groupId>
     <artifactId>wicket</artifactId>
@@ -111,7 +111,7 @@
     <type>pom</type>
 	</dependency>-->
 	
-	<!-- CVEGrp2-28 https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 (done)-->
+	<!-- CVEGrp2-28 https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-collections4</artifactId>
@@ -125,7 +125,7 @@
     <version>3.0.1</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (done)-->
+	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.apache.geode</groupId>
     <artifactId>geode-core</artifactId>
@@ -139,7 +139,7 @@
     <version>2.2.0</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-34 https://mvnrepository.com/artifact/org.owasp/dependency-check-core (done)-->
+	<!-- CVEGrp2-34 https://mvnrepository.com/artifact/org.owasp/dependency-check-core (Scantist - done)-->
 	<!--<dependency>
     <groupId>org.owasp</groupId>
     <artifactId>dependency-check-core</artifactId>
@@ -154,7 +154,7 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- CVEGrp2-36 https://mvnrepository.com/artifact/io.undertow/undertow-core (done)-->
+	<!-- CVEGrp2-36 https://mvnrepository.com/artifact/io.undertow/undertow-core (Scantist - done)-->
 	<!--<dependency>
     <groupId>io.undertow</groupId>
     <artifactId>undertow-core</artifactId>
