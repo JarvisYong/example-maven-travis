@@ -24,11 +24,11 @@
 	
   <dependencies>
 	<!-- CVEGrp2-3 https://mvnrepository.com/artifact/tomcat/catalina (Done)-->
-	<!--<dependency>
+	<dependency>
     <groupId>tomcat</groupId>
     <artifactId>catalina</artifactId>
     <version>5.5.15</version>
-	</dependency>-->
+	</dependency>
 	
 	<!-- CVEGrp2-4 https://mvnrepository.com/artifact/com.liferay.portal/portal-service (Unable to find to correct dependency)-->
 	<!--<dependency>
@@ -170,11 +170,11 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-40 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist unable to find CVE)-->
-	<dependency>
+	<!--<dependency>
     <groupId>org.apache.geode</groupId>
     <artifactId>geode-core</artifactId>
     <version>1.0.0-incubating</version>
-	</dependency>
+	</dependency>-->
 
   </dependencies>
 </project>
