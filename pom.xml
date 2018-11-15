@@ -172,6 +172,14 @@
     <version>7.10.0</version>
     <scope>provided</scope>
 	</dependency>-->
+	
+	<!-- https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-core -->
+<dependency>
+    <groupId>com.googlecode.wicket-jquery-ui</groupId>
+    <artifactId>wicket-jquery-ui-core</artifactId>
+    <version>8.0.0-M9.1</version>
+</dependency>
+
 
 	<!-- CVEGrp2-36 https://mvnrepository.com/artifact/io.undertow/undertow-core (Scantist - Found, OSSI Not Found)-->
 	<!--<dependency>
@@ -181,11 +189,11 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-37 https://mvnrepository.com/artifact/org.ovirt.engine.api/sdk -->
-	<dependency>
+	<!--<dependency>
     <groupId>org.ovirt.engine.api</groupId>
     <artifactId>sdk</artifactId>
     <version>4.1.6</version>
-	</dependency>
+	</dependency>-->
 
 	
 	<!-- CVEGrp2-38 https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core (Travis unable to build)-->
