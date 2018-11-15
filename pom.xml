@@ -71,12 +71,12 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo/geronimo -->
-	<!--<dependency>
+	<dependency>
     <groupId>org.apache.geronimo</groupId>
     <artifactId>geronimo</artifactId>
     <version>3.0.0</version>
     <type>pom</type>
-	</dependency>-->
+	</dependency>
 	
 	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api (Scantist - Not Found, OSSI Not Found)-->
 	<!--<dependency>
@@ -188,12 +188,12 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- CVEGrp2-40 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist unable to find CVE)-->
-	<dependency>
+	<!-- CVEGrp2-40 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist - Not Found, OSSI Found)-->
+	<!--<dependency>
     <groupId>org.apache.geode</groupId>
     <artifactId>geode-core</artifactId>
     <version>1.0.0-incubating</version>
-	</dependency>
+	</dependency>-->
 
   </dependencies>
 </project>
