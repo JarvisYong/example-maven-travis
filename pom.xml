@@ -79,12 +79,12 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api (Scantist - Not Found, OSSI Not Found)-->
-	<dependency>
+	<!--<dependency>
     <groupId>org.jasig.portal</groupId>
     <artifactId>uportal-search-api</artifactId>
     <version>4.0.11.1</version>
     <type>pom</type>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-16 https://mvnrepository.com/artifact/org.picketlink/picketlink-federation (Scantist - Found, OSSI Found)-->
 	<!--<dependency>
@@ -143,6 +143,15 @@
     <artifactId>glassfish-common-full</artifactId>
     <version>3.0.1</version>
 	</dependency>-->
+	
+	<!-- https://mvnrepository.com/artifact/org.glassfish/javax.el -->
+<dependency>
+    <groupId>org.glassfish</groupId>
+    <artifactId>javax.el</artifactId>
+    <version>3.0.1-b08-jbossorg-1</version>
+    <type>pom</type>
+</dependency>
+
 	
 	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist - Found, OSSI Found)-->
 	<!--<dependency>
