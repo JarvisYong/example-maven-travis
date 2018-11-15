@@ -233,12 +233,19 @@
     <scope>test</scope>
 	</dependency>-->
 
-	<!-- ExtraCVE https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper (8012)-->
-	<dependency>
+	<!-- ExtraCVE https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper (8012 Found)-->
+	<!--<dependency>
     <groupId>org.apache.zookeeper</groupId>
     <artifactId>zookeeper</artifactId>
     <version>3.5.2-alpha</version>
     <type>pom</type>
+	</dependency>-->
+
+	<!-- ExtraCVE https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind (5968)-->
+	<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.9.3</version>
 	</dependency>
 
 	
