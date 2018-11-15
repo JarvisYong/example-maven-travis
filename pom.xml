@@ -143,12 +143,12 @@
     <version>3.0.1</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist - Found)-->
-	<dependency>
+	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist - Found, OSSI Found)-->
+	<!--<dependency>
     <groupId>org.apache.geode</groupId>
     <artifactId>geode-core</artifactId>
     <version>1.2.1</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-32 https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-service-spring (Travis unable to build)-->
 	<!--<dependency>
@@ -158,11 +158,11 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-34 https://mvnrepository.com/artifact/org.owasp/dependency-check-core (Scantist - Found)-->
-	<!--<dependency>
+	<dependency>
     <groupId>org.owasp</groupId>
     <artifactId>dependency-check-core</artifactId>
     <version>3.1.2</version>
-	</dependency>-->
+	</dependency>
 	
 	<!-- CVEGrp2-35 https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui (Scantist unable to find CVE)-->
 	<!--<dependency>
