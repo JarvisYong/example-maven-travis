@@ -173,12 +173,14 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-core -->
+<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket -->
 <dependency>
-    <groupId>com.googlecode.wicket-jquery-ui</groupId>
-    <artifactId>wicket-jquery-ui</artifactId>
+    <groupId>org.apache.wicket</groupId>
+    <artifactId>wicket</artifactId>
     <version>8.0.0-M9</version>
+    <type>pom</type>
 </dependency>
+
 
 
 	<!-- CVEGrp2-36 https://mvnrepository.com/artifact/io.undertow/undertow-core (Scantist - Found, OSSI Not Found)-->
