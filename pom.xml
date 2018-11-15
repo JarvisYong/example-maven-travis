@@ -158,6 +158,13 @@
     <version>2.2.0</version>
 	</dependency>-->
 	
+	<!-- CVEGrp2-32 https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-services-common -->
+	<dependency>
+    <groupId>com.exadel.flamingo</groupId>
+    <artifactId>flamingo-services-common</artifactId>
+    <version>2.2.0</version>
+	</dependency>
+	
 	<!-- CVEGrp2-34 https://mvnrepository.com/artifact/org.owasp/dependency-check-core (Scantist - Found)-->
 	<!--<dependency>
     <groupId>org.owasp</groupId>
@@ -165,7 +172,7 @@
     <version>3.1.2</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-35 https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui (Scantist unable to find CVE)-->
+	<!-- CVEGrp2-35 https://mvnrepository.com/artifact/com.googlecode.wicket-jquery-ui/wicket-jquery-ui (Unable to find CVE)-->
 	<!--<dependency>
     <groupId>com.googlecode.wicket-jquery-ui</groupId>
     <artifactId>wicket-jquery-ui</artifactId>
@@ -173,15 +180,13 @@
     <scope>provided</scope>
 	</dependency>-->
 	
-<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket -->
-<dependency>
+	<!-- CVEGrp2-35 https://mvnrepository.com/artifact/org.apache.wicket/wicket (Unable to find CVE)-->
+	<!--<dependency>
     <groupId>org.apache.wicket</groupId>
     <artifactId>wicket</artifactId>
     <version>8.0.0-M9</version>
     <type>pom</type>
-</dependency>
-
-
+	</dependency>-->
 
 	<!-- CVEGrp2-36 https://mvnrepository.com/artifact/io.undertow/undertow-core (Scantist - Found, OSSI Not Found)-->
 	<!--<dependency>
