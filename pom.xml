@@ -180,6 +180,14 @@
     <version>2.0.0.Final</version>
 	</dependency>-->
 	
+	<!-- CVEGrp2-37 https://mvnrepository.com/artifact/org.ovirt.engine.api/sdk -->
+	<dependency>
+    <groupId>org.ovirt.engine.api</groupId>
+    <artifactId>sdk</artifactId>
+    <version>4.1.6</version>
+	</dependency>
+
+	
 	<!-- CVEGrp2-38 https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core (Travis unable to build)-->
 	<!--<dependency>
     <groupId>org.jenkins-ci.main</groupId>
@@ -195,14 +203,5 @@
     <version>1.0.0-incubating</version>
 	</dependency>-->
 	
-<!-- https://mvnrepository.com/artifact/io.jenkins.plugins/warnings-ng -->
-<dependency>
-    <groupId>io.jenkins.plugins</groupId>
-    <artifactId>warnings-ng</artifactId>
-    <version>1.0.0-beta1</version>
-</dependency>
-
-
-
   </dependencies>
 </project>
