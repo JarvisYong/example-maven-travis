@@ -49,12 +49,12 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-4 https://mvnrepository.com/artifact/com.liferay.portal/portal-service (Unable to find to correct dependency)-->
-	<dependency>
+	<!--<dependency>
     <groupId>com.liferay.portal</groupId>
     <artifactId>portal-service</artifactId>
     <version>5.2.3</version>
     <scope>provided</scope>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-5,18 https://mvnrepository.com/artifact/org.apache.activemq/activemq-core (Scantist - Found, OSSI - Found)-->
 	<!--<dependency>
