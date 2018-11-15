@@ -248,12 +248,13 @@
     <version>2.9.3</version>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/com.liulishuo.filedownloader/library -->
+<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-client -->
 <dependency>
-    <groupId>com.liulishuo.filedownloader</groupId>
-    <artifactId>library</artifactId>
-    <version>1.7.3</version>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-client</artifactId>
+    <version>5.15.5</version>
 </dependency>
+
 
 
 	
