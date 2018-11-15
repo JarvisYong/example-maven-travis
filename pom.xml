@@ -256,11 +256,19 @@
 	</dependency>-->
 
 	<!-- ExtraCVE https://mvnrepository.com/artifact/org.springframework.boot/spring-boot (1196 found)-->
-	<dependency>
+	<!--<dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot</artifactId>
     <version>1.5.9.RELEASE</version>
-	</dependency>
+	</dependency>-->
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.cxf.fediz/fediz-core -->
+<dependency>
+    <groupId>org.apache.cxf.fediz</groupId>
+    <artifactId>fediz-core</artifactId>
+    <version>1.4.3</version>
+</dependency>
+
 
 
   </dependencies>
