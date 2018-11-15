@@ -195,12 +195,13 @@
     <version>1.0.0-incubating</version>
 	</dependency>-->
 	
-	<!-- https://mvnrepository.com/artifact/org.jvnet.hudson.plugins/warnings -->
+<!-- https://mvnrepository.com/artifact/io.jenkins.plugins/warnings-ng -->
 <dependency>
-    <groupId>org.jvnet.hudson.plugins</groupId>
-    <artifactId>warnings</artifactId>
-    <version>4.64</version>
+    <groupId>io.jenkins.plugins</groupId>
+    <artifactId>warnings-ng</artifactId>
+    <version>1.0.0-beta1</version>
 </dependency>
+
 
 
   </dependencies>
