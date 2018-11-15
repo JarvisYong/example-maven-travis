@@ -151,19 +151,12 @@
     <version>1.2.1</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-32 https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-service-spring (Travis unable to build)-->
+	<!-- CVEGrp2-32 https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-services-common (Unable to build using Travis, Found using Owasp Dependency Check)-->
 	<!--<dependency>
-    <groupId>com.exadel.flamingo</groupId>
-    <artifactId>flamingo-service-spring</artifactId>
-    <version>2.2.0</version>
-	</dependency>-->
-	
-	<!-- CVEGrp2-32 https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-services-common -->
-	<dependency>
     <groupId>com.exadel.flamingo</groupId>
     <artifactId>flamingo-services-common</artifactId>
     <version>2.2.0</version>
-	</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-34 https://mvnrepository.com/artifact/org.owasp/dependency-check-core (Scantist - Found)-->
 	<!--<dependency>
@@ -201,9 +194,8 @@
     <artifactId>sdk</artifactId>
     <version>4.1.6</version>
 	</dependency>-->
-
 	
-	<!-- CVEGrp2-38 https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core (Travis unable to build)-->
+	<!-- CVEGrp2-38 https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core (Unable to build using Travis, Found using Owasp Dependency Check)-->
 	<!--<dependency>
     <groupId>org.jenkins-ci.main</groupId>
     <artifactId>jenkins-core</artifactId>
