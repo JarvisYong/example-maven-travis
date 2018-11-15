@@ -94,11 +94,20 @@
 	</dependency>-->
 	
 <!-- https://mvnrepository.com/artifact/org.apache.flex.blazeds/flex-messaging-opt-tomcat4 -->
-<dependency>
+<!--<dependency>
     <groupId>org.apache.flex.blazeds</groupId>
     <artifactId>flex-messaging-opt-tomcat4</artifactId>
     <version>4.7.0</version>
+</dependency>-->
+
+<!-- https://mvnrepository.com/artifact/org.apache.flex.blazeds/blazeds -->
+<dependency>
+    <groupId>org.apache.flex.blazeds</groupId>
+    <artifactId>blazeds</artifactId>
+    <version>4.7.0</version>
+    <type>pom</type>
 </dependency>
+
 
 	<!-- CVEGrp2-20,21,41 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Found, OSSI Found)-->
 	<!--<dependency>
