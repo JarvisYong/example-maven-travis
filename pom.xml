@@ -22,7 +22,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   
-    <build>
+    <!--<build>
         <plugins>
              <plugin>
 				<groupId>org.sonatype.ossindex.maven</groupId>
@@ -38,7 +38,7 @@
 				</executions>
 			</plugin>
         </plugins>
-	</build>
+	</build>-->
 	
   <dependencies>
 	<!-- CVEGrp2-3 https://mvnrepository.com/artifact/tomcat/catalina (Scantist - Found, OSSI - Not found)-->
