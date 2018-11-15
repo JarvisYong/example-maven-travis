@@ -22,7 +22,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   
-    <build>
+    <!--<build>
         <plugins>
              <plugin>
 				<groupId>org.sonatype.ossindex.maven</groupId>
@@ -38,7 +38,7 @@
 				</executions>
 			</plugin>
         </plugins>
-	</build>
+	</build>-->
 	
   <dependencies>
 	<!-- CVEGrp2-3 https://mvnrepository.com/artifact/tomcat/catalina (Scantist - Found, OSSI - Not found)-->
@@ -70,11 +70,12 @@
     <version>7.0.30</version>
 	</dependency>-->
 	
-	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo.framework/geronimo-gbean-deployer (Unable to build)-->
+	<!-- CVEGrp2-8 https://mvnrepository.com/artifact/org.apache.geronimo/geronimo -->
 	<!--<dependency>
-    <groupId>org.apache.geronimo.framework</groupId>
-    <artifactId>jmx-security</artifactId>
-    <version>3.0-m1</version>
+    <groupId>org.apache.geronimo</groupId>
+    <artifactId>geronimo</artifactId>
+    <version>3.0.0</version>
+    <type>pom</type>
 	</dependency>-->
 	
 	<!-- CVEGrp2-14 https://mvnrepository.com/artifact/org.jasig.portal/uportal-search-api (Scantist - Not Found, OSSI Not Found)-->
