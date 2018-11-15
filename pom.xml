@@ -130,11 +130,11 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-28 https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 (Scantist - Found)-->
-	<dependency>
+	<!--<dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-collections4</artifactId>
     <version>4.0</version>
-	</dependency>
+	</dependency>-->
 
 	<!-- CVEGrp2-30 https://mvnrepository.com/artifact/org.glassfish.packager/glassfish-grizzly (Unable to find correct dependency)-->
 	<!--<dependency>
@@ -144,11 +144,11 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist - Found)-->
-	<!--<dependency>
+	<dependency>
     <groupId>org.apache.geode</groupId>
     <artifactId>geode-core</artifactId>
     <version>1.2.1</version>
-	</dependency>-->
+	</dependency>
 	
 	<!-- CVEGrp2-32 https://mvnrepository.com/artifact/com.exadel.flamingo/flamingo-service-spring (Travis unable to build)-->
 	<!--<dependency>
