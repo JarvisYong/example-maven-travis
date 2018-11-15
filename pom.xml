@@ -49,12 +49,12 @@
 	</dependency>-->
 	
 	<!-- CVEGrp2-4 https://mvnrepository.com/artifact/com.liferay.portal/portal-service (Unable to find to correct dependency)-->
-	<!--<dependency>
+	<dependency>
     <groupId>com.liferay.portal</groupId>
-    <artifactId>portal-kernel</artifactId>
+    <artifactId>portal-service</artifactId>
     <version>5.2.3</version>
     <scope>provided</scope>
-	</dependency>-->
+	</dependency>
 	
 	<!-- CVEGrp2-5,18 https://mvnrepository.com/artifact/org.apache.activemq/activemq-core (Scantist - Found, OSSI - Found)-->
 	<!--<dependency>
@@ -136,20 +136,13 @@
     <artifactId>commons-collections4</artifactId>
     <version>4.0</version>
 	</dependency>-->
-
-	<!-- CVEGrp2-30 https://mvnrepository.com/artifact/org.glassfish.packager/glassfish-grizzly (Unable to find correct dependency)-->
-	<!--<dependency>
-    <groupId>org.glassfish.packager</groupId>
-    <artifactId>glassfish-common-full</artifactId>
-    <version>3.0.1</version>
-	</dependency>-->
 	
-<!-- https://mvnrepository.com/artifact/org.glassfish.core/kernel -->
-<dependency>
+	<!-- CVEGrp2-30 https://mvnrepository.com/artifact/org.glassfish.core/kernel (Unable to find correct dependency)-->
+	<!--<dependency>
     <groupId>org.glassfish.core</groupId>
     <artifactId>kernel</artifactId>
     <version>3.0.1</version>
-</dependency>
+	</dependency>-->
 	
 	<!-- CVEGrp2-31 https://mvnrepository.com/artifact/org.apache.geode/geode-core (Scantist - Found, OSSI Found)-->
 	<!--<dependency>
