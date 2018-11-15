@@ -100,12 +100,13 @@
     <version>4.7.0</version>
 	</dependency>-->
 	
-<!-- https://mvnrepository.com/artifact/org.mozilla.components/fxa -->
+<!-- https://mvnrepository.com/artifact/org.mozilla/firefox -->
 <dependency>
-    <groupId>org.mozilla.components</groupId>
-    <artifactId>fxa</artifactId>
-    <version>0.23</version>
+    <groupId>org.mozilla</groupId>
+    <artifactId>firefox</artifactId>
+    <version>3.6.3</version>
 </dependency>
+
 
 	<!-- CVEGrp2-20,21,41 https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina (Scantist - Found, OSSI Found)-->
 	<!--<dependency>
