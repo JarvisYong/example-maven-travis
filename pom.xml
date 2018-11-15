@@ -248,15 +248,13 @@
     <version>2.9.3</version>
 	</dependency>-->
 	
-<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-client -->
+<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-core -->
 <dependency>
-    <groupId>org.apache.activemq</groupId>
-    <artifactId>activemq-client</artifactId>
-    <version>5.15.5</version>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-core</artifactId>
+    <version>3.2.5</version>
 </dependency>
 
 
-
-	
   </dependencies>
 </project>
